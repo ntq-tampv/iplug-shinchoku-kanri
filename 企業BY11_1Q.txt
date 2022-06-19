@@ -1,0 +1,1891 @@
+.	エピック	タスク	JIRA	担当	標準工数	実績工数	状態	開始予定	開始実績	終了予定	終了実績	備考				
+	重複メソッドのv1側クラス設計リファクタリング		ENG1ST-2067	i-plug			完了					リリース済み分対応				
+		domain/company/ipwhitelist/changelog.php		猿渡		1h	完了	04/20	04/20	04/20	04/20					
+		domain/company/optionsettings/navigation.php		猿渡		1h	完了	04/20	04/20	04/20	04/20					
+		lib/ccommonfunc.php		猿渡		1h	完了	04/20	04/20	04/20	04/20					
+		lib/chatworkfunc.php		猿渡		1h	完了	04/20	04/20	04/20	04/20					
+		lib/commonfunc.php		猿渡		1h	完了	04/20	04/20	04/20	04/20					
+		lib/helper/ofb_html_helper.php		猿渡		1h	完了	04/20	04/20	04/20	04/20					
+		lib/ofb-util/ofb_breadcrumb.php		猿渡			却下					v2側ファイルなし				
+		lib/ofb-util/ofb_error_handler.php		猿渡		1h	完了	04/20	04/20	04/20	04/20					
+		lib/ofb-util/ofb_spreadsheet.php		猿渡		1h	完了	04/20	04/20	04/20	04/20					
+		lib/ofb-util/offerboxemail.php		猿渡		1h	完了	04/21	04/21	04/21	04/21					
+		lib/ofb-util/pauseaccont.php		猿渡			却下					v2側ファイルなし				
+		lib/util/google_api_sheets.php		猿渡		1h	完了	04/21	04/21	04/21	04/21					
+		lib/util/wkhtmltopdf.php		猿渡		1h	完了	04/22	04/22	04/22	04/22					
+		model/agency.php		猿渡		1h	完了	04/18	04/18	04/18	04/18					
+		model/clookatme.php		猿渡		1h	完了	04/18	04/18	04/18	04/18					
+		model/cmsgtemplate.php		猿渡		1h	完了	04/18	04/18	04/18	04/18					
+		model/company.php		猿渡		1h	完了	04/18	04/18	04/18	04/18					
+		model/companyinformation.php		猿渡		1h	完了	04/18	04/18	04/18	04/18					
+		model/companyipwhitelist.php		猿渡		1h	完了	04/18	04/18	04/18	04/18					
+		model/companyipwhitelistchangelog.php		猿渡		1h	完了	04/18	04/18	04/18	04/18					
+		model/companymember.php		猿渡		1h	完了	04/18	04/18	04/18	04/18					
+		model/cphase.php		猿渡		1h	完了	04/18	04/18	04/18	04/18					
+		model/distributorcompanyplanearly.php		猿渡		1h	完了	04/19	04/19	04/19	04/19					
+		model/distributorcompanyplanseikouhoushu.php		猿渡		1h	完了	04/19	04/19	04/19	04/19					
+		model/event.php		猿渡		1h	完了	04/19	04/19	04/19	04/19					
+		model/giftstatus.php		猿渡		1h	完了	04/19	04/19	04/19	04/19					
+		model/maintenancestatus.php		猿渡		1h	完了	04/19	04/19	04/19	04/19					
+		model/offer.php		猿渡		1h	完了	04/19	04/19	04/19	04/19					
+		model/offerguidecolumn.php		猿渡		1h	完了	04/19	04/19	04/19	04/19					
+		model/offerguidekeyword.php		猿渡		1h	完了	04/19	04/19	04/19	04/19					
+		model/offerguidelog.php		猿渡		1h	完了	04/19	04/19	04/19	04/19					
+		model/offerguidemessage.php		猿渡		1h	完了	04/19	04/19	04/19	04/19					
+		model/offerguidesample.php		猿渡		1h	完了	04/19	04/19	04/19	04/19					
+		service/companychangerequesthistory.php		猿渡		1h	完了	04/21	04/21	04/21	04/21					
+		service/companyregister.php		猿渡		1h	完了	04/21	04/21	04/21	04/21					
+		service/competencesearch/commonfunc.php		猿渡		1h	完了	04/21	04/21	04/21	04/21					
+		service/cplansetting.php		猿渡		1h	完了	04/22	04/22	04/22	04/22					
+		service/planapplicationform.php		猿渡		1h	完了	04/22	04/22	04/22	04/22					
+		service/shplansetting.php		猿渡		1h	完了	04/21	04/21	04/21	04/21					
+		service/student.php		猿渡		1h	完了	04/22	04/22	04/22	04/22					
+		コードレビュー		三田		2h	完了	04/26	04/26	04/26	04/26					
+		FB対応		猿渡		3h	完了	04/27	04/27	04/28	04/28					
+		FB対応レビュー		三田		1h	完了	04/28	04/28	04/28	04/28					
+	リポジトリクラス削除一括対応（リリース済み機能への対応）		ENG1ST-2066	NTQ			完了					masterブランチベースの作業ブランチを作り、リポジトリクラスを抹消し、リリース済み機能がリポジトリクラスに依存していない形にする。				
+		Companycontract		NTQ	4h	2h	完了	04/13	04/13	04/14	04/14					
+		Companydistributor		NTQ	4h	1h	完了	04/15	04/15	04/15	04/15					
+		Companyfreeoffer		NTQ	4h	2h	完了	04/13	04/13	04/14	04/14					
+		Companyplanflatrate		NTQ	4h	2h	完了	04/15	04/15	04/15	04/15					
+		CompanyPlanSeikouHoushu		NTQ	4h	2h	完了	04/18	04/15	04/18	04/15					
+		Companypremiumef1g		NTQ	4h	2h	完了	04/18	04/15	04/18	04/15					
+		Companyregister		NTQ	4h	2h	完了	04/19	04/15	04/19	04/15					
+		Distributor		NTQ	4h	2h	完了	04/19	04/15	04/19	04/15					
+		Ebill		NTQ	4h	2h	完了	04/20	04/15	04/20	04/15					
+		TeamDefault		NTQ	4h	2h	完了	04/20	04/15	04/20	04/15					
+		TeamList		NTQ	4h	3h	完了	04/13	04/13	04/14	04/14					
+		ModelOfbTrait		NTQ	4h		完了	04/18	04/18	04/25	04/25	"これはなぜ挙がってる？
+2022/04/11 NTQ:
+以下の観点で考えて、「ModelOfbTrait」を挙がります。
+
+1: レポジトリに置いているため：
+https://github.com/i-plug/offerbox/blob/2405e9fde9ee74dfc74049e65a411fd01457989b/offerbox-v2/app/Repository/Database/ModelOfbTrait.php
+
+2: 「リプレース実装手順説明資料」「share_module」シートにより、
+”リプレース初期にtraitを使用していましたが、現在はよりシンプルにするためにtraitの使用は禁止されています。
+traitが一部残っていますが、参考や使用をしないこと”
+
+3: 以下の指摘のより、「ModelOfbTrait」削除は御社側の方針と考えております。
+https://github.com/i-plug/offerbox/pull/5893#discussion_r793278819"				
+		FuelUtil		NTQ	4h		完了	04/18	04/18	04/25	04/25	"リポジトリ、モデルが依存しているユーティリティ。こいつだけがApp\Repository\Database上に残ってしまうのが設計上あまりよくないため、このクラスの処理をModelOfbTraitに移動したい。
+３メソッド中1メソッド（current）は廃止し、currentを使用している箇所（募集要項、CommonFunc、Seeder系2箇所）は、Modelのメソッドにリファクタリングして、MdelOfbTraitに既に定義されているcurrentを使用する方式に変更する。
+ーーー
+https://iplug-ntq.slack.com/archives/C02BYE052ES/p1650960703134679"				
+		コードレビュー		三田	6h	5h	完了	04/27	04/27	04/27	04/27					
+		FB対応		NTQ	4h	4h	完了	04/27	04/27	04/28	04/28					
+		FB対応レビュー		三田		1h	完了	04/28	04/28	04/28	04/28					
+		未リリース機能で対応が必要なものの洗い出し		NTQ	8h	4h	完了	04/25	04/25	04/27	04/27	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1651021044423359				
+		マージ作業		三田		1h	完了	04/28	04/28	04/28	04/28					
+	Trait, ディレクトリ不正対応						未着手									
+		Trait					未着手					traitを抽象クラスにして、継承する。share_module/app/Serviceに移動する				
+		share_module/domain					未着手					share_module/app/Domainに移動する				
+		share_module/lib					未着手					share_module/app/Libに移動する				
+		コードレビュー					未着手									
+	Companyオブジェクトのリファクタリング		ENG1ST-2084				未着手									
+		コード修正					未着手					"1, Company.php, CopmanyAuth.phpの整理
+2. Auth.phpにinstanceメソッドの適用"				
+		回帰テスト					未着手					実装をCompany.phpによせたときに、たとえば空文字、NULLなどのチェックで不具合がおきないか、などのチェックは必要				
+		コードレビュー					未着手									
+	不具合対応_企業の基本設定画面のXSS対応		ENG1ST-2114				未着手					"https://i-plug.atlassian.net/browse/ENG1ST-2114
+https://docs.google.com/spreadsheets/d/17rlqJAvjLkLFxMvxrRKf1dsIHJJGyD3MI6nl7HmpFTc/edit#gid=0&range=144:144"				
+		実装(不具合No.142)					未着手									
+		コードレビュー(不具合No.142)					未着手									
+		機能テスト実施(不具合No.142)					未着手									
+	accesslogの出力調整		ENG1ST-2115				未着手					"https://i-plug.atlassian.net/browse/ENG1ST-2115
+島Note: 20220609時点　実装中の学生側にもaccesslogがあるので注意
+現時点のaccesslogがどこに飛んでいるか確認する"				
+		実装					未着手									
+		テスト仕様書修正					未着手									
+		テスト仕様書レビュー					未着手									
+		コードレビュー					未着手									
+		機能テスト実施					未着手									
+	カスタムバリデーションをv2に移行する		ENG1ST-2125	i-plug			未着手									
+		v1のバリデーションルールクラスの洗い出し		衛藤			未着手									
+		実装方法検討		衛藤			未着手									
+		実装		衛藤			未着手									
+		コードレビュー					未着手									
+	学生検索画面　/cstudent		ENG1ST-2037	NTQ			却下					リニューアル予定のため、後回し				
+		実装		NTQ			未着手									
+		テスト仕様書作成		NTQ			未着手									
+		テスト仕様書レビュー		山下			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ			未着手									
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	ラベル検索画面　/cstudentlabel		ENG1ST-2038	NTQ			仕掛中									
+		実装		NTQ	73.0h	140.5h	完了	05/10	05/10	06/14	06/14					
+		テスト仕様書作成		NTQ	176.0h	196.0h	完了	05/13	05/13	06/16	06/16					
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	100.0h		仕掛中	06/14	06/14	06/30						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+9	私を見て（私を見てリスト）画面　/clookatme/list		ENG1ST-2039	NTQ			仕掛中									
+		実装		NTQ	73.0h		完了	04/01	04/01	04/15	04/15					
+		テスト仕様書作成		NTQ	72.0h		完了	04/05	04/05	04/22	04/22	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1651118445881879?thread_ts=1650878141.331639&cid=C02BYE052ES				
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ	12.0h		未着手									
+		機能テスト実施		NTQ	42.0h		完了	04/18	04/18	04/29	04/28					
+		リポジトリクラス削除対応		NTQ	1.0h		完了	05/03	05/03	05/03	05/03					20
+		レビュー					未着手									
+		FB対応		NTQ	14.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+8	適性検査受験者管理　/cef1g		ENG1ST-2040	NTQ			仕掛中									
+		実装		NTQ	73.0h	73.0h	完了	04/01	04/01	04/15	04/15					
+		テスト仕様書作成		NTQ	72.0h	72.0h	完了	04/05	04/05	04/18	04/18	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1650275406865269				
+		テスト仕様書レビュー		宗	4.0h	16.0h	完了	04/28	04/28	05/09	05/09	5/10 NTQさん側に連絡済（FB対応有）				
+		テスト仕様書FB対応		NTQ	12.0h	0.1h	完了	05/10	05/10	05/12	05/12	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1652322976171919?thread_ts=1650275406.865269&cid=C02BYE052ES				
+		機能テスト実施		NTQ	42.0h	42.0h	完了	04/18	04/18	04/22	04/20					
+		リポジトリクラス削除対応		NTQ	1.0h	1.0h	完了	05/03	05/03	05/03	05/03					
+		重複メソッド対応		NTQ	1.0h	1.0h	完了	04/28	04/28	04/29	05/04					
+		レビュー					未着手									
+		FB対応		NTQ	14.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+16	適性検索 受検依頼　/cef1g/exam_request		ENG1ST-2041	NTQ			仕掛中									
+		実装		NTQ	73.0h	73.0h	完了	04/08	04/08	04/21	04/19					
+		テスト仕様書作成		NTQ	72.0h	72.0h	完了	04/18	04/18	04/28	04/26	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1650972173360409				
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ	12.0h		未着手									
+		機能テスト実施		NTQ	42.0h	42.0h	完了	04/28	04/25	05/06	04/27					
+		リポジトリクラス削除対応		NTQ	1.0h	1.0h	完了	05/03	05/03	05/03	05/03					
+		重複メソッド対応		NTQ	1.0h	1.0h	完了	04/28	04/28	04/29	05/04					
+		レビュー					未着手									
+		FB対応		NTQ	14.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	人材マップ画面　/competencesearch/cpersonalitymapanalytics		ENG1ST-2042	NTQ			仕掛中									
+		実装		NTQ	184.0h		仕掛中	06/02	06/02	06/30						
+		テスト仕様書作成		NTQ	160.0h		仕掛中	06/06	06/06	07/20						
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	100.0h		未着手	07/18		08/10						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+3	"選考管理リスト オファー取り消し　/cofferlist/reject/before
+/cofferlist/reject/after"		ENG1ST-2043	NTQ			仕掛中									
+		実装		NTQ	73.0h	73.0h	完了	04/01	04/01	04/18	04/18					
+		テスト仕様書作成		NTQ	72.0h	72.0h	完了	04/05	04/05	04/22	04/22	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1650846037954699				
+		テスト仕様書レビュー		宗	24.0h	32.0h	完了	05/11	05/11	05/17	05/18	5/17 作業遅延により予定変更（5/13→5/17）				
+		テスト仕様書FB対応		NTQ	12.0h		完了	06/14	06/14	06/14	06/14					
+		機能テスト実施		NTQ	42.0h	42.0h	完了	04/18	04/18	04/28	04/28					
+		リポジトリクラス削除対応		NTQ	1.0h	1.0h	完了	05/04	05/04	05/04	05/04					
+		レビュー					未着手									
+		FB対応		NTQ	14.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	かんたん日程調整（開催前のイベント）画面　/cevent		ENG1ST-2044	NTQ			仕掛中					超高難度のおそれがあるため、着手前に確認して報告してもらう				
+		実装		NTQ	184.0h	184.0h	完了	05/04	05/04	05/31	05/31					
+		テスト仕様書作成		NTQ	160.0h		完了	05/04	05/04	06/08	06/07					
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	100.0h		仕掛中	06/06	06/06	06/20						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	すべてのイベント　/cevent/?direction=all		ENG1ST-2045	NTQ			却下					ENG1ST-2044にマージ				
+		実装		NTQ			未着手									
+		テスト仕様書作成		NTQ			未着手									
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ			未着手									
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	イベント詳細　/cevent/detail/20680		ENG1ST-2046	NTQ			仕掛中									
+		実装		NTQ	177.0h		仕掛中	06/02	06/02	06/30						
+		テスト仕様書作成		NTQ	248.0h		仕掛中	06/06	06/06	07/29						
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	120.0h		未着手	07/27		08/24						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+1	"イベント提案画面（イベントから招待）　/cevent/invite?event=20680 [ENG1ST-2047]
+/cevent/invite_send
+/cevent/invite_preview?smp=1 [ENG1ST-2048]
+/cevent/invite_preview [ENG1ST-2049]"		ENG1ST-2047	NTQ			仕掛中									
+		実装		NTQ	109.0h	83.3h	完了	04/05	04/05	04/25	04/25					
+		テスト仕様書作成		NTQ	128.0h	100.0h	完了	04/05	04/05	04/28	04/28	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1651224434652889				
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ	16.0h		未着手									
+		機能テスト実施		NTQ	72.0h	100.0h	完了	04/26	04/25	05/10	05/10					
+		レビュー					未着手									
+		FB対応		NTQ	18.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	スマホのプレビュー　/cevent/invite_preview?smp=1		ENG1ST-2048	NTQ			却下					ENG1ST-2047にマージ				
+		実装		NTQ			却下									
+		テスト仕様書作成		NTQ			却下									
+		テスト仕様書レビュー					却下									
+		テスト仕様書FB対応		NTQ			却下									
+		機能テスト実施		NTQ			却下									
+		レビュー					却下									
+		FB対応		NTQ			却下									
+		受入					却下									
+		リリース準備					却下									
+	プレビュー　/cevent/invite_preview		ENG1ST-2049	NTQ			却下					ENG1ST-2047にマージ				
+		実装		NTQ			却下									
+		テスト仕様書作成		NTQ			却下									
+		テスト仕様書レビュー					却下									
+		テスト仕様書FB対応		NTQ			却下									
+		機能テスト実施		NTQ			却下									
+		レビュー					却下									
+		FB対応		NTQ			却下									
+		受入					却下									
+		リリース準備					却下									
+	"イベント編集　/cevent/edit/15019
+　　　　　　　/cevent/done/edit"		ENG1ST-2050	NTQ			仕掛中									
+		実装		NTQ	160.0h		完了	05/04	05/04	05/31	05/31					
+		テスト仕様書作成		NTQ	184.0h		完了	05/04	05/04	06/07	06/07					
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	100.0h		仕掛中	06/01	06/01	06/20						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+2	イベント提案画面（学生から招待）　/cevent/invite?students=148625		ENG1ST-2051	NTQ			未着手					ENG1ST-2047と一緒にリリースする				
+		実装		NTQ	41.0h	41.0h	完了	04/05	04/05	04/25	04/25					
+		テスト仕様書作成		NTQ	56.0h	65.0h	完了	04/26	04/22	05/05	05/05	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1652145636778669				
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ	8.0h		未着手									
+		機能テスト実施		NTQ	30.0h	70.0h	完了	05/04	05/04	05/12	05/12					
+		レビュー					未着手									
+		FB対応		NTQ	10.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+5	OfferBox内定者一覧　/cdecidemanage		ENG1ST-2052	NTQ			仕掛中									
+		実装		NTQ	73.0h	73.0h	完了	04/01	04/01	04/15	04/15					
+		テスト仕様書作成		NTQ	72.0h	72.0h	完了	04/05	04/05	04/21	04/22	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1650845686754219				
+		テスト仕様書レビュー		山下	4.0h	12.0h	完了	05/09	05/09	05/10	05/10					
+		テスト仕様書FB対応		NTQ	12.0h	6.0h	完了	05/12	05/12	05/18	05/19	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1652947586189979?thread_ts=1650845686.754219&cid=C02BYE052ES				
+		テスト仕様書FB対応確認		山下	2.0h	2.0h	完了	05/30	05/30	05/30	05/30					
+		↑の指摘事項確認		NTQ	10.0h	10.0h	完了	06/06	06/06	06/08	06/08					
+		機能テスト実施		NTQ	42.0h	42.0h	完了	04/18	04/18	04/26	04/26					
+		リポジトリクラス削除対応		NTQ	1.0h	1.0h	完了	05/04	05/04	05/04	05/04					
+		重複メソッド対応		NTQ	1.0h	1.0h	完了	04/28	05/04	05/09	05/05					
+		レビュー					未着手									
+		FB対応		NTQ	14.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+4	請求書ダウンロード画面　/cbill		ENG1ST-2053	NTQ			仕掛中									
+		実装		NTQ	41.0h	41.0h	完了	04/01	04/01	04/07	04/07					
+		テスト仕様書作成		NTQ	56.0h	56.0h	完了	04/05	04/05	04/15	04/15	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1650275323670929				
+		テスト仕様書レビュー		宗	4.0h	17.0h	完了	04/25	04/25	04/27	04/27					
+		テスト仕様書FB対応		NTQ	8.0h	0.0h	完了	04/27	04/27	04/27	04/27	指摘がありません				
+		機能テスト実施		NTQ	30.0h	30.0h	完了	04/14	04/14	04/18	04/18					
+		重複メソッド対応		NTQ	1.0h	1.0h	完了	04/28	05/04	05/09	05/05					
+		リポジトリクラス削除対応		NTQ	1.0h	1.0h	完了	05/04	05/04	05/04	05/04					
+		レビュー					未着手									
+		FB対応		NTQ	10.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	申込受付プラン設定　/cplansetting/index		ENG1ST-2054	NTQ			仕掛中									
+		実装		NTQ	73.0h	73.0h	完了	04/06	04/06	04/19	04/15					
+		テスト仕様書作成		NTQ	72.0h	72.0h	完了	04/12	04/12	04/28	04/28	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1651224651570519				
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ	12.0h		未着手									
+		機能テスト実施		NTQ	42.0h	42.0h	完了	04/27	04/27	04/29	04/29					
+		リポジトリクラス削除対応		NTQ	1.0h	1.0h	完了	05/04	05/04	05/04	05/04					
+		重複メソッド対応		NTQ	1.0h	1.0h	完了	04/28	05/04	05/09	05/05					
+		レビュー					未着手									
+		FB対応		NTQ	14.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	申し込み内容確認（成功報酬）　/cplansetting/detail/7		ENG1ST-2055	NTQ			未着手									
+		実装		NTQ	73.0h	73.0h	完了	04/01	04/01	04/22	04/15					
+		テスト仕様書作成		NTQ	72.0h	72.0h	完了	04/14	04/14	04/26	04/25	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1650879329776169				
+		テスト仕様書レビュー		山下	4.0h	8.0h	完了	05/10	05/10	05/11	05/11					
+		テスト仕様書FB対応		NTQ	12.0h		完了	05/17	05/17	05/18	05/18	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1652920247670249?thread_ts=1650879329.776169&cid=C02BYE052ES				
+		上記確認		山下	2.0h	2.0h	完了	05/31	05/31	05/31	05/31					
+		機能テスト実施		NTQ	42.0h	42.0h	完了	04/26	04/25	05/04	04/29					
+		リポジトリクラス削除対応		NTQ	1.0h	1.0h	完了	05/04	05/04	05/04	05/04					
+		重複メソッド対応		NTQ	1.0h	1.0h	完了	04/28	05/04	05/09	05/05					
+		レビュー					未着手									
+		FB対応		NTQ	14.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	成功報酬型プランお申し込み用フォーム　/cplansetting/new		ENG1ST-2056	NTQ			仕掛中									
+		実装		NTQ	72.0h		完了	06/01	06/01	06/14	06/14					
+		テスト仕様書作成		NTQ	72.0h		仕掛中	06/16	06/14	06/30						
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	42.0h		未着手	07/01		07/08						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	新規申し込み登録 確認画面（成功報酬）　/cplansetting/confirm/		ENG1ST-2057	NTQ			未着手									
+		実装		NTQ			未着手									
+		テスト仕様書作成		NTQ			未着手									
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ			未着手									
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	内定承諾確定後の辞退/取消報告　/cdecidemanage/select_report_type/513032		ENG1ST-2103	NTQ			仕掛中									
+		実装		NTQ	41.0h	41.0h	完了	06/07	06/07	06/14	06/14					
+		テスト仕様書作成		NTQ	56.0h		仕掛中	06/07	06/07	06/17						
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	30.0h		未着手	06/17		06/22						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	企業トップ画面 /cindex		ENG1ST-2105	NTQ			仕掛中									
+		実装		NTQ	21.0h	21.0h	完了	06/07	06/07	06/14	06/14					
+		テスト仕様書作成		NTQ	32.0h		仕掛中	06/07	06/07	06/20						
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	14.0h		未着手	06/17		06/22						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+6	申し込み内容確認（早期）　/cearlyplansetting/detail/2		ENG1ST-2058	NTQ			仕掛中									
+		実装		NTQ	41.0h	41.0h	完了	04/01	04/01	04/07	04/07					
+		テスト仕様書作成		NTQ	56.0h	56.0h	完了	04/01	04/01	04/12	04/13	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1649930769902959				
+		テスト仕様書レビュー		宗	4.0h	14.0h	完了	04/22	04/22	04/25	04/25					
+		機能テスト実施		NTQ	30.0h	30.0h	完了	04/12	04/12	04/15	04/15					
+		テスト仕様書更新		NTQ	8.0h	2.0h	完了	04/22	04/22	04/22	04/22	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1650971160726659?thread_ts=1649930769.902959&cid=C02BYE052ES				
+		テスト仕様書更新レビュー		宗	1.0h	1.0h	完了	04/27	04/27	04/27	04/27	NTQさんの追加内容を再検証（4/27）				
+		テスト仕様書更新レビューFB対応		NTQ	2.0h	0.0h	完了	04/27	04/27	04/27	04/27	指摘がありません				
+		リポジトリクラス削除対応		NTQ	1.0h	1.0h	完了	05/04	05/04	05/04	05/04					
+		重複メソッド対応		NTQ	1.0h	1.0h	完了	04/28	05/04	05/09	05/05					
+		レビュー					未着手									
+		FB対応		NTQ	10.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	新規申し込み登録（早期）　/cearlyplansetting/new		ENG1ST-2059	NTQ			却下					ENG1ST-2060にマージ				
+		実装		NTQ			未着手									
+		テスト仕様書作成		NTQ			未着手									
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ			未着手									
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	新規申し込み登録 確認画面（早期）　/cearlyplansetting/confirm		ENG1ST-2060	NTQ			仕掛中									
+		実装		NTQ	108.0h		完了	04/21	04/21	05/16	05/16					
+		テスト仕様書作成		NTQ	128.0h		完了	04/21	04/21	05/23	05/23					
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	72.0h		完了	05/20	05/20	05/31	05/31					
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+11	相談チャット　/ccompanychat/index/		ENG1ST-2061	NTQ			仕掛中									
+		実装		NTQ	73.0h	73.0h	完了	04/18	04/18	04/28	04/22					
+		テスト仕様書作成		NTQ	72.0h	72.0h	完了	04/18	04/18	04/28	04/28	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1651104177718639				
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ	12.0h		未着手									
+		機能テスト実施		NTQ	42.0h	42.0h	完了	04/28	04/27	05/06	04/29					
+		重複メソッド対応		NTQ	1.0h	1.0h	完了	04/28	05/04	05/09	05/05					
+		レビュー					未着手									
+		FB対応		NTQ	14.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+7	アクセス履歴　/caccesslog		ENG1ST-2062	NTQ			仕掛中									
+		実装		NTQ	41.0h	41.0h	完了	04/01	04/01	04/07	04/07					
+		テスト仕様書作成		NTQ	56.0h	56.0h	完了	04/01	04/01	04/12	04/13	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1649930534420839				
+		テスト仕様書レビュー		宗		8.0h	完了	04/21	04/21	04/21	04/21	NTQさんへ連絡済み（4/22）				
+		機能テスト実施		NTQ	30.0h	30.0h	完了	04/12	04/12	04/15	04/15					
+		重複メソッド対応		NTQ	1.0h	1.0h	完了	04/28	05/04	05/09	05/05					
+		レビュー					未着手									
+		FB対応		NTQ	10.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+12	OfferBox計画表 結果　/cplan/result/2117		ENG1ST-1786	NTQ			未着手									
+		実装		NTQ	73.0h	73.0h	完了	04/15	04/15	04/27	04/25					
+		テスト仕様書作成		NTQ	72.0h	72.0h	完了	04/18	04/18	04/28	04/28	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1651225816461569				
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ	12.0h		未着手									
+		機能テスト実施		NTQ	42.0h	42.0h	完了	04/28	05/04	05/09	05/05					
+		リポジトリクラス削除対応		NTQ	1.0h	1.0h	完了	05/04	05/04	05/04	05/04					
+		レビュー					未着手									
+		FB対応		NTQ	14.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+14	レコメンド学生（注目の学生）　/crecommend/index/292004		ENG1ST-1741	NTQ			仕掛中									
+		実装		NTQ	73.0h	73.0h	完了	04/18	04/18	04/28	04/22					
+		テスト仕様書作成		NTQ	72.0h	72.0h	完了	04/18	04/18	05/05	05/05	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1652146442289929				
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ	12.0h		未着手									
+		機能テスト実施		NTQ	42.0h	42.0h	完了	04/28	04/28	05/06	05/06					
+		レビュー					未着手									
+		FB対応		NTQ	14.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+15	活動量シミュレーション　/cofferlimit/simulation		ENG1ST-1801	NTQ			仕掛中									
+		実装		NTQ	73.0h	10.0h	完了	04/01	04/01	04/15	04/15					
+		テスト仕様書作成		NTQ	72.0h	19.5h	完了	04/05	04/05	04/18	04/18	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1650282339337399				
+		テスト仕様書レビュー		宗	8.0h	8.0h	完了	05/10	05/10	05/10	05/10	5/11 NTQさん側に連絡済（FB対応有）				
+		テスト仕様書FB対応		NTQ	12.0h		完了	05/11	05/11	05/16	05/16	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1652747773269559?thread_ts=1650282339.337399&cid=C02BYE052ES				
+		機能テスト実施		NTQ	42.0h	7.0h	完了	04/18	04/18	04/22	04/22					
+		重複メソッド対応		NTQ	1.0h	1.0h	完了	04/28	05/04	05/09	05/05					
+		レビュー					未着手									
+		FB対応		NTQ	14.0h		未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	高評価学生分析　/competencesearch/cactivestudent		ENG1ST-1766	NTQ			仕掛中									
+		実装		NTQ	108.0h		完了	05/04	05/04	05/23	05/23					
+		テスト仕様書作成		NTQ	128.0h		完了	05/09	05/09	06/06	06/06					
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	72.0h		完了	05/27	05/27	06/08	06/08					
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	契約申込内容（成功報酬）　/cplansetting/seikouhoushurequest/7		ENG1ST-2068	NTQ			仕掛中									
+		実装		NTQ	73.0h		完了	05/09	05/09	05/18	05/18					
+		テスト仕様書作成		NTQ	72.0h		完了	05/09	05/09	05/20	05/20	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1653266097785249				
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	42.0h		完了	05/20	05/20	05/25	05/25					
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	申し込み内容印刷（成功報酬 HIREYEAR <= 2020）　/cplansetting/print/7		ENG1ST-2070	NTQ			仕掛中									
+		実装		NTQ	73.0h		完了	04/27	04/27	05/11	05/11					
+		テスト仕様書作成		NTQ	72.0h		完了	04/27	04/27	05/11	05/11	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1652255085324699				
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	42.0h		完了	05/12	05/12	05/18	05/18					
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	申し込み内容印刷（早期）　/cearlyplansetting/print/2		ENG1ST-2076	NTQ			仕掛中									
+		実装		NTQ	73.0h		完了	05/04	05/04	05/13	05/13					
+		テスト仕様書作成		NTQ	72.0h		完了	05/13	05/12	05/24	05/23	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1653376871731809				
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	42.0h		完了	05/25	05/19	05/31	05/27					
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	申し込み内容印刷（成功報酬 2020 < HIREYEAR）　/cplansetting/seikouhoushuwrittenapplication_v3/7		ENG1ST-2071	NTQ			仕掛中									
+		実装		NTQ	73.0h		完了	05/10	05/10	05/20	05/20					
+		テスト仕様書作成		NTQ	72.0h		完了	05/11	05/11	05/23	05/23	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1653376737711629				
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	42.0h		完了	05/23	05/20	05/27	05/23					
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	申し込み内容確認（成功報酬 2020 < HIREYEAR）　/cplansetting/seikouhoushu_v3/7		ENG1ST-2069	NTQ			仕掛中									
+		実装		NTQ	73.0h		完了	04/18	04/18	05/27	05/27					
+		テスト仕様書作成		NTQ	72.0h		完了	05/19	05/19	05/31	05/31					
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	42.0h		完了	05/31	05/31	06/06	06/06					
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	申し込み内容確認（定額）　/cplansetting/seikouhoushu_v3/7		ENG1ST-2077	NTQ			仕掛中									
+		実装		NTQ	73.0h		完了	05/16	05/16	06/07	06/07					
+		テスト仕様書作成		NTQ	72.0h		完了	05/25	05/25	06/14	06/14					
+		テスト仕様書レビュー					未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	42.0h		仕掛中	06/14	06/13	06/20						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	新規申し込み登録 完了（早期）　/cearlyplansetting/done		ENG1ST-2075	NTQ			仕掛中									
+		実装		NTQ	108.0h		完了	04/21	04/21	05/16	05/16					
+		テスト仕様書作成		NTQ	128.0h		完了	04/21	04/21	05/16	05/16	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1653008688970119				
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	72.0h		完了	05/13	05/13	05/25	05/25					
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	新規申し込み登録）完了（成功報酬） /cplansetting/done		ENG1ST-2073	NTQ			仕掛中									
+		実装		NTQ	108.0h		完了	06/01	06/01	06/09	06/09					
+		テスト仕様書作成		NTQ	128.0h		完了	06/01	06/01	06/09	06/09					
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	72.0h		完了	06/09	06/09	06/15	06/15					
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	活動分析画面 /canalytics		ENG1ST-1806	NTQ			仕掛中									
+		実装		NTQ	108.0h		仕掛中	06/02	06/02	06/30						
+		テスト仕様書作成		NTQ	128.0h		仕掛中	06/06	06/06	07/29						
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	72.0h		未着手	07/27		08/24						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	オファー枠増枠申請画面 /cofferlimit/request		ENG1ST-2089	NTQ			仕掛中									
+		実装		NTQ	108.0h		仕掛中	06/14	06/14	06/22						
+		テスト仕様書作成		NTQ	128.0h		仕掛中	06/14	06/14	06/24						
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	72.0h		未着手	06/24		07/01						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	オファー枠増枠申請 完了画面 /cofferlimit/request/done		ENG1ST-2090	NTQ			未着手									
+		実装		NTQ	108.0h		未着手	06/24		06/28						
+		テスト仕様書作成		NTQ	128.0h		未着手	06/24		06/29						
+		テスト仕様書レビュー		宗			未着手									
+		テスト仕様書FB対応		NTQ			未着手									
+		機能テスト実施		NTQ	72.0h		未着手	06/30		07/01						
+		レビュー					未着手									
+		FB対応		NTQ			未着手									
+		受入					未着手									
+		リリース準備					未着手									
+	GTM_V2リリース済み画面		ENG1ST-2086	NTQ			完了									
+		対象画面一覧作成		NTQ			完了	05/16	05/16	05/16	05/16					
+		実装		NTQ			完了	05/17	05/17	05/25	05/26	https://iplug-ntq.slack.com/archives/C02BYE052ES/p1653387847089089				
+		レビュー（共通ヘッダ部分のみ先行）		三田		0.3h	完了	05/26	05/26	05/26	05/26					
+		テスト仕様書通訳		NTQ	40.0h	30.0h	完了	05/17	05/17	05/25	05/24					
+		"機能テスト実施: 
+/v2/csettings/company"		NTQ	10.0h	10.0h	完了	05/26	05/26	05/31	06/01					
+		"機能テスト実施: 
+/v2/csettings/person/edit/{companyMemberId}"		NTQ	5.0h	5.5h	完了	05/26	05/26	05/31	06/01					
+		"機能テスト実施: 
+/v2/csettings/person/new"		NTQ	3.5h	3.5h	完了	05/30	05/30	05/30	05/30					
+		"機能テスト実施: 
+/v2/csettings/person"		NTQ	6.0h	6.0h	完了	05/30	05/30	05/30	05/30					
+		"機能テスト実施: 
+/v2/ccontract/change"		NTQ	10.0h	10.0h	完了	05/30	05/30	05/30	05/30					
+		機能テスト実施: /v2/ccontract/complete		NTQ	10.0h	10.0h	完了	05/30	05/30	05/31	05/31					
+		"機能テスト実施: 
+/v2/coptionsettings/lookatme"		NTQ	3.5h	3.5h	完了	05/26	05/26	05/26	05/26					
+		機能テスト実施: /v2/cprof/companypr		NTQ	3.5h	3.0h	完了	05/26	05/26	05/26	05/26					
+		機能テスト実施: /v2/cofferguide		NTQ	8.0h	8.0h	完了	05/26	05/26	05/27	05/27					
+		機能テスト実施: /v2/coptionsettings/ip_connection_control		NTQ	3.5h	3.0h	完了	05/26	05/26	05/26	05/30					
+		機能テスト実施: /v2/csettings/phase		NTQ	4.5h	4.5h	完了	05/26	05/26	05/27	05/30					
+		機能テスト実施: /v2/cworkingcondition/index 		NTQ	3.5h	3.0h	完了	05/27	05/27	05/27	05/30					
+		機能テスト実施: Common Company Header		NTQ	8.0h	8.0h	完了	05/30	05/30	05/31	06/01					
+		機能テスト実施: Common Company Sidebar		NTQ	12.0h	12.0h	完了	05/31	05/31	06/01	06/01					
+		機能テスト実施: Common Company Footer		NTQ	3.0h	3.0h	完了	06/01	06/01	06/01	06/01					
+		受入		三田		2.0h	完了	06/13	06/13	06/13	06/13					
+		リリース準備		三田		2.0h	完了	06/14	06/14	06/14	06/14					
+		リリース予告		三田			完了	06/15	06/14	06/15	06/14	UXG（村山さん、阿部さん）に連絡				
+		リリース	ENG1ST-2120	三田		1.0h	完了	06/16	06/15	06/16	06/15					
+		リリース完了連絡		三田			完了	06/16	06/15	06/16	06/15	UXG（村山さん、阿部さん）に連絡。本番確認依頼				
+	GTM_V2リリース待ち画面			NTQ			仕掛中									
+		/cprof/companypr	ENG1ST-1552	NTQ	2.5h		未着手									
+		/cmsgtemplate	ENG1ST-1553	NTQ	5.0h	5.0h	完了	06/10	06/10	06/13	06/10					
+		/csettings/offer	ENG1ST-1557	NTQ	4.5h		完了	06/10	06/10	06/13	06/13					
+		/csettings/label	ENG1ST-1558	NTQ	3.5h		完了	06/10	06/09	06/13	06/09					
+		/cofferlist	ENG1ST-1811	NTQ	16.0h	10.5h	完了	06/16	06/15	06/22	06/16					
+		/cprof/setting/	ENG1ST-1696	NTQ	2.0h		仕掛中	06/13	06/13	06/17						
+		/company/terms	ENG1ST-1631	NTQ	1.0h		未着手	06/28		06/28						
+		/company/contact	ENG1ST-1636	NTQ	2.0h		未着手	06/28		06/28						
+		/company/contactdone	ENG1ST-1641	NTQ	1.0h		未着手	06/17		06/20						
+		/company/material	ENG1ST-1646	NTQ	8.0h		未着手	06/17		06/20						
+		/company/materialdone	ENG1ST-1651	NTQ	6.0h		未着手	06/17		06/20						
+		/clogin/logout	ENG1ST-1610	NTQ	4.0h		未着手	06/17		06/17						
+		/cregister	ENG1ST-1686	NTQ	5.0h		未着手	06/17		06/17						
+		/clogin/set_password/<token	ENG1ST-1691	NTQ	4.0h		未着手	06/17		06/17						
+		/cofferlimit	ENG1ST-1701	NTQ	5.0h	5.0h	完了	06/16	06/14	06/17	06/15					
+		/cef1g/about	ENG1ST-1751	NTQ	6.0h	6.0h	完了	06/17	06/13	06/20	06/13					
+		/cstudenthide	ENG1ST-1756	NTQ	12.0h		仕掛中	06/15	06/15	06/22						
+		/cevent/invite?event=20680 確認	ENG1ST-1883	NTQ	8.0h		未着手	06/22		06/23						
+		/cevent/invite_complete	ENG1ST-1884	NTQ	4.0h		未着手	06/23		06/23						
+		/cevent/new/15019	ENG1ST-1885	NTQ	16.0h	14.0h	完了	06/14	06/14	06/22	06/15					
+		/cevent/send_message/20680 (一括メッセージ送信)	ENG1ST-1886	NTQ	9.0h		未着手	06/22		06/23						
+		/coffer/sendexec/82194	ENG1ST-1731	NTQ	5.0h		未着手	06/23		06/23						
+		/competencesearch/cactivepersonal	ENG1ST-1761	NTQ	8.0h		未着手	06/24		06/27						
+		/cplan	ENG1ST-1771	NTQ	7.0h		未着手	06/27		06/27						
+		/cplan/new	ENG1ST-1776	NTQ	8.0h		未着手	06/28		06/29						
+		/cplan/edit/2117	ENG1ST-1781	NTQ	7.0h	6.0h	完了	06/23	06/13	06/23	06/13					
+		/cevent/student/346499	ENG1ST-1888	NTQ	10.0h		未着手	06/24		06/27						
+		/cplan/resultinput/2321	ENG1ST-1791	NTQ	13.0h		未着手	06/29		06/30						
+		/cplan/start	ENG1ST-1796	NTQ	4.0h		未着手	06/24		06/24						
+		/cofferlist/send_message?phase=100	ENG1ST-1812	NTQ	9.0h		未着手	06/24		06/27						
+		/cofferlist/send_message_confirm	ENG1ST-1817	NTQ	6.0h		未着手	06/27		06/27						
+		/cdecidemanage/new	ENG1ST-1891	NTQ	5.0h		未着手	06/28		06/28						
+		/cdecidemanage/chat/144575	ENG1ST-1892	NTQ	6.0h		未着手	06/28		06/29						
+		/cinformation/	ENG1ST-1991	NTQ	5.0h		未着手	06/29		06/30						
+		/cplansetting/select_plan	ENG1ST-1983	NTQ	5.0h	5.0h	完了	06/14	06/14	06/14	06/14					
+		/cplansetting/about	ENG1ST-1984	NTQ	7.0h	7.0h	完了	06/14	06/14	06/14	06/14					
+		/cknowhow/	ENG1ST-1985	NTQ	5.0h	5.0h	完了	06/14	06/14	06/14	06/14					
+		/cevent/about	ENG1ST-2001	NTQ	5.0h		未着手	06/29		06/29						
+		/cevent/calendar	ENG1ST-2013	NTQ	5.0h		未着手	06/29		06/30						
+		/cinformation/page/108/	ENG1ST-2004	NTQ	1.0h	1.0h	完了	06/09	06/09	06/09	06/09					
+		/cearlyplansetting/detail/2	ENG1ST-2058	NTQ	1.5h	5.0h	未着手	07/01		07/01						
+		/cbill	ENG1ST-2053	NTQ	1.5h	5.0h	未着手	07/01		07/04						
+		/caccesslog	ENG1ST-2062	NTQ	1.5h	5.0h	未着手	07/04		07/04						
+		/cevent/invite?event=20680 確認 [ENG1ST-1883]	ENG1ST-1883	NTQ	16.0h	23.0h	未着手	07/01		07/05						
+		/cofferlist/reject/before	ENG1ST-2043	NTQ	6.0h	11.0h	未着手	07/06		07/07						
+		/cdecidemanage	ENG1ST-2052	NTQ	4.0h	8.0h	未着手	07/05		07/05						
+		/cef1g	ENG1ST-2040	NTQ	2.0h	5.0h	未着手	07/06		07/06						
+		/clookatme/list	ENG1ST-2039	NTQ	8.0h	13.0h	未着手	07/01		07/04						
+		/cplansetting/detail/7	ENG1ST-2055	NTQ	1.0h	4.0h	未着手	07/06		07/07						
+		/ccompanychat/index/	ENG1ST-2061	NTQ	1.5h	5.0h	未着手	07/05		07/05						
+		/cofferlimit/simulation	ENG1ST-1801	NTQ	2.0h	5.0h	未着手	07/06		07/06						
+		/cplansetting/index	ENG1ST-2054	NTQ	2.0h	5.0h	未着手	07/07		07/07						
+		/cplan/result/2117	ENG1ST-1786	NTQ	4.5h	9.0h	未着手	07/08		07/11						
+		/crecommend/index/292004	ENG1ST-1741	NTQ	1.0h	4.0h	未着手	07/11		07/11						
+		/cef1g/exam_request	ENG1ST-2041	NTQ	0.5h	4.0h	未着手	07/12		07/12						
+		/cearlyplansetting/new	ENG1ST-2059	NTQ	2.0h	2.0h	完了	06/10	06/09	06/10	06/09					
+		/cearlyplansetting/confirm	ENG1ST-2060	NTQ	2.0h	1.0h	完了	06/10	06/09	06/10	06/09					
+		/cearlyplansetting/done	ENG1ST-2075	NTQ	1.5h	1.0h	完了	06/10	06/09	06/10	06/09					
+		/cstudentlabel	ENG1ST-2038	NTQ	4.0h		未着手	06/30		06/30						
+		/competencesearch/cactivestudent	ENG1ST-1766	NTQ	5.0h	5.0h	完了	06/10	06/07	06/10	06/08					
+		"/cevent
+/cevent/?direction=all"	ENG1ST-2044	NTQ	5.5h	4.0h	完了	06/07	06/07	06/07	06/07					
+		"/cevent/edit/15019
+/cevent/done/edit"	ENG1ST-2050	NTQ	5.0h	5.0h	完了	06/10	06/07	06/10	06/07					
+		/cplansetting/seikouhoushurequest/7	ENG1ST-2068	NTQ	1.0h	0.5h	完了	06/10	06/08	06/13	06/08					
+		/cplansetting/print/7	ENG1ST-2070	NTQ	1.0h		完了	06/10	06/08	06/14	06/14					
+		/cearlyplansetting/print/2	ENG1ST-2076	NTQ	1.0h	0.5h	完了	06/10	06/08	06/13	06/08					
+		/cplansetting/seikouhoushuwrittenapplication_v3/7	ENG1ST-2071	NTQ	1.0h		未着手	06/17		06/17						
+		/cplansetting/seikouhoushu_v3/7	ENG1ST-2069	NTQ	2.0h	2.0h	完了	06/10	06/09	06/13	06/09					
+		"採用計画 API連携　設定画面
+/csettings/api/iweb
+/csettings/api/sonar
+/csettings/api/talentio"	ENG1ST-1854				未着手					i-Plug側リプレース完了した次第計画する。				
+		"かんたん日程調整（開催前のイベント）イベント開催場所設定画面
+/csettings/eventplace"	ENG1ST-1559				未着手					i-Plug側リプレース完了した次第計画する。				
+		"採用計画　レジュメPDF出力
+/cstudent/prof/513024"	ENG1ST-1920				未着手					i-Plug側リプレース完了した次第計画する。				
+		ヘルプデスク	ENG1ST-1846				未着手					i-Plug側リプレース完了した次第計画する。				
+		"選考する（選考管理リスト）メッセージリスト
+＊＊＊さんとのメッセージ
+/cmessage/list/recv
+/cmessage/list/sent/1/50
+/cmessage/index/335162"	ENG1ST-1999				未着手					i-Plug側リプレース完了した次第計画する。				
+		"採用計画　学生番号: ****の見極めシート画面
+/cef1g/sakura/<student.ID>
+/cef1g/ibj/<student.ID>
+/cef1g/premiumgroup/<student.ID>
+/cef1g/wanbishi/<student.ID>
+/cef1g/iplug/<student.ID>"	ENG1ST-1932				未着手					i-Plug側リプレース完了した次第計画する。				
+	GTM_V1残画面			NTQ			未着手									
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
