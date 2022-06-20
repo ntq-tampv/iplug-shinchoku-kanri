@@ -168,7 +168,7 @@ https://iplug.slack.com/archives/CB38ZP73J/p1652674111741749"
 		リリース結果報告		島	0.15h	0.15h	完了	05/19	05/19	05/19	05/19	https://iplug.slack.com/archives/CB38ZP73J/p1652962487710719			
 	4群リリース後作業			i-plug			仕掛中								
 		fulentdの変更点をNTQに共有		島	0.5h	0.5h	完了	05/23	05/23	5/23	05/23	https://iplug.slack.com/archives/C02BYE052ES/p1653293154644359			
-		SalesForce対応してる画面から次の優先受入機能を選定＆fluentd関連でaccesslogの部分の見直しタスクを進捗管理表に起票（小坂さんアサイン）		島	2h		未着手	6/8		6/17		"島：現在アクセスログはどこに飛ばしていているかなど、確認
+		SalesForce対応してる画面から次の優先受入機能を選定＆fluentd関連でaccesslogの部分の見直しタスクを進捗管理表に起票（小坂さんアサイン）		島	2h		未着手					"島：現在アクセスログはどこに飛ばしていているかなど、確認
 
 念の為
 - 浦部さんとの認識合わせ

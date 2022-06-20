@@ -339,10 +339,10 @@ https://docs.google.com/spreadsheets/d/17rlqJAvjLkLFxMvxrRKf1dsIHJJGyD3MI6nl7Hmp
 		リリース準備					未着手									
 	内定承諾確定後の辞退/取消報告　/cdecidemanage/select_report_type/513032		ENG1ST-2103	NTQ			仕掛中									
 		実装		NTQ	41.0h	41.0h	完了	06/07	06/07	06/14	06/14					
-		テスト仕様書作成		NTQ	56.0h		仕掛中	06/07	06/07	06/17						
+		テスト仕様書作成		NTQ	56.0h	55.0h	完了	06/07	06/07	06/17	06/17					
 		テスト仕様書レビュー					未着手									
 		テスト仕様書FB対応		NTQ			未着手									
-		機能テスト実施		NTQ	30.0h		未着手	06/17		06/22						
+		機能テスト実施		NTQ	30.0h		仕掛中	06/17	06/17	06/22						
 		レビュー					未着手									
 		FB対応		NTQ			未着手									
 		受入					未着手									
@@ -352,7 +352,7 @@ https://docs.google.com/spreadsheets/d/17rlqJAvjLkLFxMvxrRKf1dsIHJJGyD3MI6nl7Hmp
 		テスト仕様書作成		NTQ	32.0h		仕掛中	06/07	06/07	06/20						
 		テスト仕様書レビュー					未着手									
 		テスト仕様書FB対応		NTQ			未着手									
-		機能テスト実施		NTQ	14.0h		未着手	06/17		06/22						
+		機能テスト実施		NTQ	14.0h		仕掛中	06/17	06/17	06/22						
 		レビュー					未着手									
 		FB対応		NTQ			未着手									
 		受入					未着手									
@@ -601,15 +601,15 @@ https://docs.google.com/spreadsheets/d/17rlqJAvjLkLFxMvxrRKf1dsIHJJGyD3MI6nl7Hmp
 		/csettings/offer	ENG1ST-1557	NTQ	4.5h		完了	06/10	06/10	06/13	06/13					
 		/csettings/label	ENG1ST-1558	NTQ	3.5h		完了	06/10	06/09	06/13	06/09					
 		/cofferlist	ENG1ST-1811	NTQ	16.0h	10.5h	完了	06/16	06/15	06/22	06/16					
-		/cprof/setting/	ENG1ST-1696	NTQ	2.0h		仕掛中	06/13	06/13	06/17						
+		/cprof/setting/	ENG1ST-1696	NTQ	2.0h		仕掛中	06/13	06/13	06/24						
 		/company/terms	ENG1ST-1631	NTQ	1.0h		未着手	06/28		06/28						
 		/company/contact	ENG1ST-1636	NTQ	2.0h		未着手	06/28		06/28						
-		/company/contactdone	ENG1ST-1641	NTQ	1.0h		未着手	06/17		06/20						
-		/company/material	ENG1ST-1646	NTQ	8.0h		未着手	06/17		06/20						
-		/company/materialdone	ENG1ST-1651	NTQ	6.0h		未着手	06/17		06/20						
-		/clogin/logout	ENG1ST-1610	NTQ	4.0h		未着手	06/17		06/17						
-		/cregister	ENG1ST-1686	NTQ	5.0h		未着手	06/17		06/17						
-		/clogin/set_password/<token	ENG1ST-1691	NTQ	4.0h		未着手	06/17		06/17						
+		/company/contactdone	ENG1ST-1641	NTQ	1.0h		未着手	06/21		06/22						
+		/company/material	ENG1ST-1646	NTQ	8.0h		未着手	06/21		06/22						
+		/company/materialdone	ENG1ST-1651	NTQ	6.0h		未着手	06/21		06/22						
+		/clogin/logout	ENG1ST-1610	NTQ	4.0h		未着手	06/21		06/22						
+		/cregister	ENG1ST-1686	NTQ	5.0h		未着手	06/22		06/23						
+		/clogin/set_password/<token	ENG1ST-1691	NTQ	4.0h		未着手	06/22		06/23						
 		/cofferlimit	ENG1ST-1701	NTQ	5.0h	5.0h	完了	06/16	06/14	06/17	06/15					
 		/cef1g/about	ENG1ST-1751	NTQ	6.0h	6.0h	完了	06/17	06/13	06/20	06/13					
 		/cstudenthide	ENG1ST-1756	NTQ	12.0h		仕掛中	06/15	06/15	06/22						
@@ -617,14 +617,14 @@ https://docs.google.com/spreadsheets/d/17rlqJAvjLkLFxMvxrRKf1dsIHJJGyD3MI6nl7Hmp
 		/cevent/invite_complete	ENG1ST-1884	NTQ	4.0h		未着手	06/23		06/23						
 		/cevent/new/15019	ENG1ST-1885	NTQ	16.0h	14.0h	完了	06/14	06/14	06/22	06/15					
 		/cevent/send_message/20680 (一括メッセージ送信)	ENG1ST-1886	NTQ	9.0h		未着手	06/22		06/23						
-		/coffer/sendexec/82194	ENG1ST-1731	NTQ	5.0h		未着手	06/23		06/23						
+		/coffer/sendexec/82194	ENG1ST-1731	NTQ	5.0h		仕掛中	06/16	06/16	06/20						
 		/competencesearch/cactivepersonal	ENG1ST-1761	NTQ	8.0h		未着手	06/24		06/27						
 		/cplan	ENG1ST-1771	NTQ	7.0h		未着手	06/27		06/27						
 		/cplan/new	ENG1ST-1776	NTQ	8.0h		未着手	06/28		06/29						
 		/cplan/edit/2117	ENG1ST-1781	NTQ	7.0h	6.0h	完了	06/23	06/13	06/23	06/13					
 		/cevent/student/346499	ENG1ST-1888	NTQ	10.0h		未着手	06/24		06/27						
 		/cplan/resultinput/2321	ENG1ST-1791	NTQ	13.0h		未着手	06/29		06/30						
-		/cplan/start	ENG1ST-1796	NTQ	4.0h		未着手	06/24		06/24						
+		/cplan/start	ENG1ST-1796	NTQ	4.0h		仕掛中	06/16	06/16	06/20						
 		/cofferlist/send_message?phase=100	ENG1ST-1812	NTQ	9.0h		未着手	06/24		06/27						
 		/cofferlist/send_message_confirm	ENG1ST-1817	NTQ	6.0h		未着手	06/27		06/27						
 		/cdecidemanage/new	ENG1ST-1891	NTQ	5.0h		未着手	06/28		06/28						
